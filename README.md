@@ -1,6 +1,12 @@
 # AngularCrash
 
+##initial configs for CLI to run enable powershell scripts on Windows Client
+run  "npm install -g @angular/cli" to install angular cli globally 
+run "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned" if scripts are blocked or unauthorised on machine
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
+was updated using ng update @angular/core@14 @angular/cli@14
 
 ## Development server
 
